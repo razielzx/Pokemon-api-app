@@ -1,0 +1,26 @@
+.pokecard{
+    background-color: darkgray;
+    padding: .5rem 1rem;
+    border-radius: 3px;
+    cursor: pointer;
+    position: relative;
+    display: grid;
+    justify-items: center;
+    text-transform: capitalize;
+}
+/* .pokecard:hover{
+    
+} */
+
+.card-id{
+    background-color: #c00e0e;
+    color: #fff;
+    padding: .1rem .5rem;
+    font-size: .8rem;
+    border-radius: 0 0 3px 3px;
+    position: absolute;
+    top: 0;
+}
+.pokecard>h3{
+    font-size: .9rem;
+}
