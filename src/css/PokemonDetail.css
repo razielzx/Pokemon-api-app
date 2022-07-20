@@ -1,7 +1,3 @@
-*{
-    color: snow;
-}
-
 .content-detail{
     background-color: #c00e0e;
     /* color: #fff; */
@@ -29,6 +25,7 @@
 .detail-info{
     /* background-color: #fff; */
     padding: 1rem;
+    color: #fff;
 }
 .info-title{
     text-transform: capitalize;
@@ -71,4 +68,8 @@
     display: flex;
     /* flex-wrap: wrap; */
     justify-content: space-between;
+}
+
+.detail-stats {
+    color: #fff;
 }
